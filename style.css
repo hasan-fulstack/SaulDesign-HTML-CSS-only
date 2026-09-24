@@ -5,7 +5,10 @@
      background-color: #222831;
     font-family: 'Poppins', sans-serif;
 }
-
+header {
+    padding: 48px 0;
+    
+}
 .container {
     max-width: 1248px;
     margin: 0 auto;
@@ -14,15 +17,39 @@
 nav {
     display: flex;
     justify-content: space-between;
-    height: 129px;
+}
+.logo {
+    align-items: center;
 }
 
+
 ul {
- 
+ display: flex;
+    align-items: center;
+    gap: 48px;
 
 }
 
 li {
     list-style: none;
     font-size: 18px;
+    font-weight: 400;
+
+}
+span {
+    height: 2px;
+    background-color: #eeeeee10;
+    display: block;
+}
+.Home {
+    display: flex;
+}
+.leftpart {
+    display: flex;
+}
+.buttons {
+    display: flex;
+}
+img {
+    margin-right: ;
 }
