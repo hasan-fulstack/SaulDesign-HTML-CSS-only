@@ -113,25 +113,25 @@ background: rgb(57, 62, 70, 0.75);
     display: flex;
     gap: 24px;
 }
-.aboutme {
- 
-}
-.line1 {
-     height: 1px;
-    background-color: rgb(238, 238, 238, .1);
-    display: block;
-    margin-bottom: 132px;
-}
+
+
+
+
+
+
+
 .about {
     font-size: 64px;
     font-weight: 700;
    color: #FFFFFF;
    display: inline-block;
+   background: transparent;
 }
 .me {
     font-size: 64px;
     font-weight: 700;
     color: #00ADB5;
+    background: transparent;
 }
 p {
     width: 389px;
@@ -162,3 +162,127 @@ background: transparent;
 }
 
 
+
+
+
+.line1 {
+     height: 1px;
+    background-color: rgb(238, 238, 238, .1);
+    display: block;
+    margin-bottom: 132px;
+}
+
+
+.work {
+    width: 1440px;
+    margin: 0 auto;
+}
+.resentworkimg {
+     width: 100%;
+    display: block;
+}
+.workpage {
+     position: absolute;
+top: 268px;
+background: transparent;
+ max-width: 1248px;
+  left: 120px;
+}
+.workimg {
+    display: flex;
+    gap: 48px;
+    background: transparent;
+}
+.button2 {
+    display: flex;
+    gap: 16px;
+    background: transparent;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.but {
+    margin-top: 0;
+}
+
+.contact {
+     width: 100%;
+    display: block;
+}
+
+.input {
+    width: 288px;
+    height: 59px;
+    border-style: none;
+    border-radius: 16px ;
+    background: rgb(57, 62, 70, 0.5);
+    padding:16px 16px 16px 24px   ;
+    color: rgb(238, 238, 238, 0.5);
+box-sizing: border-box;
+}
+.input::placeholder {
+    color: rgb(238, 238, 238, 0.5);
+font-size: 18px;
+font-weight: 700;
+}
+
+.inputlarge {
+ width: 600px;
+    height: 280px;
+    border-style: none;
+    border-radius: 16px ;
+    background: rgb(57, 62, 70, 0.5);
+ padding: 20px;
+    box-sizing: border-box;
+}
+.inputlarge::placeholder {
+    color: rgb(238, 238, 238, 0.5);
+    font-size: 18px;
+font-weight: 700;
+
+}
+label {
+    display:block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #EEEEEE;
+    background: transparent;
+}
+.form {
+    display: flex;
+    gap: 24px;
+    background: transparent;
+}
+.contactpage {
+    position: absolute;
+    display: flex;
+    gap:48px ;
+    top: 258px;
+    left: 96px;
+    background: transparent;
+}
+.label2 {
+    margin-top: 24px;
+    background: transparent;
+}
+.text {
+    background: transparent;
+}
+.line3 {
+      height: 1px;
+    background-color: rgb(238, 238, 238, .1);
+    display: block;
+    margin-top: -1px;
+}
+.ancors {
+    margin-left: 387px;
+    margin-top: 100px;
+  
+}
+.icons {
+    margin-top: 38px;
+    margin-left: 492px;
+  
+}
+.icon {
+    margin-left: 24px ;
+}
